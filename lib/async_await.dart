@@ -9,7 +9,6 @@ Future<void> fetchUserOrder() {
 void main() async{
 
   fetchUserOrder();
-<<<<<<< HEAD
   fetchUserOrder2(); // 룰루 랄라가 이후 출력되는데 !!
   print("lulu lala");
   Future.delayed(Duration(seconds: 1), () async => print( await 'Fetching user order...'));
@@ -19,8 +18,8 @@ void main() async{
 
 fetchUserOrder2() async{
    print(await "im the one!!");
-=======
+
   print("lulu lala");
   Future.delayed(Duration(seconds: 1), () async => print( await 'Fetching user order...'));
->>>>>>> origin/main
+
 }
