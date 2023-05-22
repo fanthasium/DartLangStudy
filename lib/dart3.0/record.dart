@@ -5,6 +5,7 @@ void main(){
   print(result[0]);
 
   final result2 = nameAndAge2({"name ": '민지', "age": 12});
+  print(result2.$1.length);
 
 }
 
@@ -16,6 +17,6 @@ nameAndAge(Map<String, dynamic> json){
 
 //record에서는
 
-nameAndAge2(Map<String, dynamic> json){
+(String, int)nameAndAge2(Map<String, dynamic> json){
   return (json['name'] as String, json['age'] as int);
 }

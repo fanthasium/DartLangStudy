@@ -39,4 +39,5 @@ class Taker with Strong{
   //해당 인스턴스를 그냥 가져 오는 것? interface는 초기화가 안됨 추상은 됨 근데 그걸 class로 해주는 거?
   //mixin은 생성자가 없어야함 부모거를 뺏어온느ㅡ 개념
   strengthLevel()=> print(strength);
+
 }
