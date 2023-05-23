@@ -31,7 +31,7 @@ class Player extends Human{
 }
 
 //그러나 with는 좀다르다
-class Strong{
+mixin class Strong{
   final double strength = 99.1;
 }
 
