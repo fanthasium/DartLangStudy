@@ -21,7 +21,7 @@ class Player extends Human{
   @override
   void walk() {
    super.walk();
-    print("too long");
+    print('too long');
   }
 
   @override
