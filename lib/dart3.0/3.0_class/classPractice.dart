@@ -23,7 +23,9 @@ final class HyunDai extends Car{
 //sealed클래스는 abstract이면서 final이다
 //그리고 패턴매치를 사용할수 있도록 해준다
 
-sealed class Person{}
+sealed class Person{
+
+}
 
 class Idol extends Person{}
 class Chef extends Person{}

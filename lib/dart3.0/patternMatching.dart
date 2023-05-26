@@ -25,7 +25,7 @@ void switcher(dynamic anything){
 void switcher2(dynamic anything) => switch(anything) { 5=> print("match 5") , _=> print("no match")};
 
 void switcher3(dynamic anything, bool Bolean) => switch(anything) {   //이건 좀 유용할지도
-  5 when Bolean => print("match 5") , _=> print("no match")
+  5 when Bolean => print("match 5") , 6 when !Bolean => print("Boolean false = match6") , _=> print("no match")
 };
 
 
@@ -51,16 +51,6 @@ void newMember(){
   for(var {'name' : name , 'pie' : pie } in members){
     print(name);
     print(pie);
-
-  }
-
-  void ifMatcher(){
-    final hosung = {'name' : '호성' , 'age' : 20};
-    if(hosung case {'name' : String name , 'age': int age}){
-      print(name);
-      print(age);
-
-    }
 
   }
 

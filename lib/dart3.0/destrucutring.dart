@@ -28,16 +28,16 @@ void main() {
 
   print("--------------------------");
   // 또 이런 것 까지 된다..
-  final newNum = Idol(name: '호성', age: 12);
-  final Idol(name: name4, age: age4) = newNum;
+  final newNum = Idol(name: '호성');
+  final Idol(name: name4) = newNum;
   print(name4);
-  print(age4);
+
 
 }
 class Idol{
   final String name;
-  final int age;
 
-  Idol({required this.name, required this.age});
+
+  Idol({required this.name});
 }
 
